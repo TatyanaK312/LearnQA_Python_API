@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 allure-pytest
 requests
+=======
+allure-pytest
+requests
+>>>>>>> 2ae27fa (Ex4)
 pytest
