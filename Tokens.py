@@ -1,6 +1,5 @@
 import requests, time, json
 response = requests.get("https://playground.learnqa.ru/ajax/api/longtime_job")
-print(response.text, response.status_code)
 obj = json.loads(response.text)
 key = "token"
 response = requests.get("https://playground.learnqa.ru/ajax/api/longtime_job", params={"token":obj[key]})
